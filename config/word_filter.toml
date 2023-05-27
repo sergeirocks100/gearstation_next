@@ -4,16 +4,130 @@
 
 # Anything in here will be blocked from IC interactions, dead chat, and OOC
 [shared]
-"blockedinshared" = "This message is not allowed anywhere, please use a different weird test phrase."
+
+# Slurs
+
+"nigga" = "Using hateful slurs is a violation of Rule 22."
+"niggas" = "Using hateful slurs is a violation of Rule 22."
+"nigger" = "Using hateful slurs is a violation of Rule 22."
+"niggers" = "Using hateful slurs is a violation of Rule 22."
+"nig" = "Using hateful slurs is a violation of Rule 22."
+"nigs" = "Using hateful slurs is a violation of Rule 22."
+"tarbaby" = "Using hateful slurs is a violation of Rule 22."
+"tarbabies" = "Using hateful slurs is a violation of Rule 22."
+"faggot" = "Using hateful slurs is a violation of Rule 22."
+"faggots" = "Using hateful slurs is a violation of Rule 22."
+"fag" = "Using hateful slurs is a violation of Rule 22."
+"fags" = "Using hateful slurs is a violation of Rule 22."
+"homo" = "Using hateful slurs is a violation of Rule 22."
+"homos" = "Using hateful slurs is a violation of Rule 22."
+"queer" = "Using hateful slurs is a violation of Rule 22."
+"queers" = "Using hateful slurs is a violation of Rule 22."
+"fudgepacker" = "Using hateful slurs is a violation of Rule 22."
+"fudgepackers" = "Using hateful slurs is a violation of Rule 22."
+"chink" = "Using hateful slurs is a violation of Rule 22."
+"chinks" = "Using hateful slurs is a violation of Rule 22."
+"spic" = "Using hateful slurs is a violation of Rule 22."
+"spics" = "Using hateful slurs is a violation of Rule 22."
+"beaner" = "Using hateful slurs is a violation of Rule 22."
+"beaners" = "Using hateful slurs is a violation of Rule 22."
+"tranny" = "Using hateful slurs is a violation of Rule 22."
+"trannies" = "Using hateful slurs is a violation of Rule 22."
+"retard" = "Using hateful slurs is a violation of Rule 22."
+"retards" = "Using hateful slurs is a violation of Rule 22."
+"tard" = "Using hateful slurs is a violation of Rule 22."
+"tards" = "Using hateful slurs is a violation of Rule 22."
+"retarded" = "Using hateful slurs is a violation of Rule 22."
+"tarded" = "Using hateful slurs is a violation of Rule 22."
+"sperg" = "Using hateful slurs is a violation of Rule 22."
+"spergs" = "Using hateful slurs is a violation of Rule 22."
+"kike" = "Using hateful slurs is a violation of Rule 22."
+"kikes" = "Using hateful slurs is a violation of Rule 22."
+"darkie" = "Using hateful slurs is a violation of Rule 22."
+"darkies" = "Using hateful slurs is a violation of Rule 22."
+"honky" = "Using hateful slurs is a violation of Rule 22."
+"honkies" = "Using hateful slurs is a violation of Rule 22."
+"wetback" = "Using hateful slurs is a violation of Rule 22."
+"wetbacks" = "Using hateful slurs is a violation of Rule 22."
+"whitey" = "Using hateful slurs is a violation of Rule 22."
+"aspie" = "Using hateful slurs is a violation of Rule 22."
+"aspies" = "Using hateful slurs is a violation of Rule 22."
+"latrino" = "Using hateful slurs is a violation of Rule 22."
+"latrinos" = "Using hateful slurs is a violation of Rule 22."
 
 # Anything in here is blocked just from IC interactions, such as chat or names, but is allowed in dead chat and OOC
 [ic]
-"blockedinic" = "This message is not allowed IC, please use a different weird test phrase."
+
+# Memester shit
+
+"kek" = "Making meme references IC is a violation of Rule 3."
+"pepe" = "Making meme references IC is a violation of Rule 3."
+"wojak" = "Making meme references IC is a violation of Rule 3."
+"soyjak" = "Making meme references IC is a violation of Rule 3."
+"sneed" = "Making meme references IC is a violation of Rule 3."
+"chungus" = "Making meme references IC is a violation of Rule 3."
+"amogus" = "Making meme references IC is a violation of Rule 3."
+"guh" = "Making meme references IC is a violation of Rule 3."
+"poggers" = "Making meme references IC is a violation of Rule 3."
+"bruh" = "Making meme references IC is a violation of Rule 3."
+"boomer" = "Making meme references IC is a violation of Rule 3."
+"zoomer" = "Making meme references IC is a violation of Rule 3."
+"doomer" = "Making meme references IC is a violation of Rule 3."
+"coomer" = "Making meme references IC is a violation of Rule 3."
+"pog" = "Making meme references IC is a violation of Rule 3."
+"henk" = "Making meme references IC is a violation of Rule 3."
+"rizz" = "Making meme references IC is a violation of Rule 3."
+"omegalul" = "Making meme references IC is a violation of Rule 3."
+
+# Shit relating to news events that are going to be 5 and a half centuries in the past when the game takes place
+
+"biden" = "Making references to real life news events IC is a violation of Rule 3."
+"democrat" = "Making references to real life news events IC is a violation of Rule 3."
+"democrats" = "Making references to real life news events IC is a violation of Rule 3."
+"republican" = "Making references to real life news events IC is a violation of Rule 3."
+"republicans" = "Making references to real life news events IC is a violation of Rule 3."
+"russia" = "Making references to real life news events IC is a violation of Rule 3."
+"ukraine" = "Making references to real life news events IC is a violation of Rule 3."
+"covid" = "Making references to real life news events IC is a violation of Rule 3."
+"coronavirus" = "Making references to real life news events IC is a violation of Rule 3."
+"putin" = "Making references to real life news events IC is a violation of Rule 3."
+"gop" = "Making references to real life news events IC is a violation of Rule 3."
+"monkeypox" = "Making references to real life news events IC is a violation of Rule 3."
+"zelenskyy" = "Making references to real life news events IC is a violation of Rule 3."
+"desantis" = "Making references to real life news events IC is a violation of Rule 3."
+
+# OOC Terms
+
+"adminhelp" = "Making references to OOC terms IC is a violation of Rule 3."
+"adminhelped" = "Making references to OOC terms IC is a violation of Rule 3."
+"ahelp" = "Making references to OOC terms IC is a violation of Rule 3."
+"ahelped" = "Making references to OOC terms IC is a violation of Rule 3."
+"ooc" = "Making references to OOC terms IC is a violation of Rule 3."
+"ic" = "Making references to OOC terms IC is a violation of Rule 3."
+"roundend" = "Making references to OOC terms IC is a violation of Rule 3."
+"roundstart" = "Making references to OOC terms IC is a violation of Rule 3."
+"eorg" = "Making references to OOC terms IC is a violation of Rule 3."
+"afk" = "Making references to OOC terms IC is a violation of Rule 3."
 
 # Anything in here is blocked from all IC interactions *except* PDAs.
 # On /tg/, netspeak is OK in PDAs.
 [ic_outside_pda]
-"<(0_0<)" = "Kirby dancing is strictly prohibited on this server."
+
+#Netspeak
+
+"lol" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"omg" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"wtf" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"lmao" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"rofl" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"idk" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"smh" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"jk" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"imo" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"imho" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"idfk" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"mfw" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
+"tfw" = "Using netspeak outside of PDA/modular computer messages is a violation of Rule 3."
 
 # Anything in here will warn the player if said in IC, dead chat or OOC, the player must approve their message to send it
 [soft_shared]

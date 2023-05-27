@@ -16,16 +16,16 @@ $include lua.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME tgstation
+# SERVERNAME GearStation 13 [ENGLISH] [NEW CODEBASE] [ROLEPLAY] [99% LAG FREE]
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+#STATIONNAME Space Station 13
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
-#HUB
+HUB
 
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
 LOBBY_COUNTDOWN 120
@@ -192,13 +192,13 @@ ALLOW_ADMIN_ASAYCOLOR
 ID_CONSOLE_JOBSLOT_DELAY 30
 
 ## allow players to initiate a restart vote
-#ALLOW_VOTE_RESTART
+ALLOW_VOTE_RESTART
 
 ## allow players to initiate a mode-change vote
 #ALLOW_VOTE_MODE
 
 ## allow players to initiate a map-change vote
-#ALLOW_VOTE_MAP
+ALLOW_VOTE_MAP
 
 ## allow players to rock the vote, or to vote on the map again if they didn't like the last results
 #ALLOW_ROCK_THE_VOTE
@@ -222,7 +222,7 @@ VOTE_PERIOD 600
 NORESPAWN
 
 ## set a hosted by name for unix platforms
-HOSTEDBY Yournamehere
+HOSTEDBY sergeirocks100
 
 ## Uncomment this to stop people connecting to your server without a registered ckey. (i.e. guest-* are all blocked from connecting)
 GUEST_BAN
@@ -259,16 +259,16 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL http://tgstation13.org/phpBB/index.php
+FORUMURL https://gearstation.tk/forum
 
 ## Wiki address
-# WIKIURL http://www.tgstation13.org/wiki
+WIKIURL https://gearstation.tk/wiki
 
 ## Rules address
-# RULESURL http://www.tgstation13.org/wiki/Rules
+RULESURL http://gearstation.tk/rules.html
 
 ## Github address
-# GITHUBURL https://www.github.com/tgstation/tgstation
+GITHUBURL https://www.github.com/sergeirocks100/GearStation_Next
 
 ## Discord bot command prefix, if the discord bot is used
 # DISCORDBOTCOMMANDPREFIX ?
@@ -285,7 +285,7 @@ CHECK_RANDOMIZER
 # GAMELOGURL
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-# BANAPPEALS http://justanotherday.example.com
+BANAPPEALS https://gearstation.tk/forum/index.php?board=4.0
 
 ## System command that invokes youtube-dl, used by Play Internet Sound.
 ## You can install youtube-dl with
@@ -344,19 +344,19 @@ NOTE_STALE_DAYS 365.2422
 ##Note: all population caps can be used with each other if desired.
 
 ## Uncomment for 'soft' population caps, players will be warned while joining if the living crew exceeds the listed number.
-#SOFT_POPCAP 100
+SOFT_POPCAP 50
 
 ## Message for soft cap
 SOFT_POPCAP_MESSAGE Be warned that the server is currently serving a high number of users, consider using alternative game servers.
 
 ## Uncomment for 'hard' population caps, players will not be allowed to spawn if the living crew exceeds the listed number, though they may still observe or wait for the living crew to decrease in size.
-#HARD_POPCAP 150
+HARD_POPCAP 60
 
 ## Message for hard cap
 HARD_POPCAP_MESSAGE The server is currently serving a high number of users, You cannot currently join. You may wait for the number of living crew to decline, observe, or find alternative servers.
 
 ## Uncomment for 'extreme' population caps, players will not be allowed to join the server if living crew exceeds the listed number.
-#EXTREME_POPCAP 200
+EXTREME_POPCAP 70
 
 ## Message for extreme cap
 EXTREME_POPCAP_MESSAGE The server is currently serving a high number of users, find alternative servers.
